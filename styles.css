@@ -235,6 +235,7 @@ section.onboarding a {
 section.no-sharding {
     display: flex;
     justify-content: center;
+    background-repeat: no-repeat;
     background-image: url("images/flow/no-sharding.png");
 }
 
@@ -248,10 +249,36 @@ section.no-sharding p {
 }
 
 section.no-sharding .words {
-    padding: 4rem 4rem 0rem 4rem;
+    display: block;
+    max-width: 1280px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height: 28px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 40px;
+    padding-left: 40px;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.discord-signup{
+    background-image: url("images/flow/discord-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
-    flex-direction: column;
-    padding: 0rem 10rem 0rem 50rem;
+    justify-content: space-around;
+    padding-top: 7rem;
+}
+.community-text{
+    margin-left: 3px;
+    padding: 1px;
+    color: black;
+}
+.join-text{
+    margin-left: 3px;
+    padding: 1px;
+    color: purple;
 }
 
 
@@ -294,3 +321,10 @@ footer .icon-container a {
     width: 50px;
 }
 
+.discord-signup-input{
+    padding: 3px;
+    justify-content: center;
+}
+.icon{
+    padding: 9px;
+}
